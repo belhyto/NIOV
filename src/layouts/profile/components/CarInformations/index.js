@@ -25,10 +25,10 @@ const CarInformations = () => {
 			})}>
 			<VuiBox display='flex' flexDirection='column'>
 				<VuiTypography variant='lg' color='white' fontWeight='bold' mb='6px'>
-					Car Informations
+				Experiment History
 				</VuiTypography>
 				<VuiTypography variant='button' color='text' fontWeight='regular' mb='30px'>
-					Hello, Roshni! Your Car is ready.
+					Hello, Roshni! 	
 				</VuiTypography>
 				<Stack
 					spacing='24px'
@@ -57,12 +57,12 @@ const CarInformations = () => {
 						<VuiBox sx={{ position: 'relative', display: 'inline-flex' }}>
 							<CircularProgress variant='determinate' value={60} size={170} color='info' />
 							<VuiBox display='flex' flexDirection='column' justifyContent='center' alignItems='center'>
-								<VuiBox component='img' src={GreenLightning} />
+								
 								<VuiTypography color='white' variant='h2' mt='6px' fontWeight='bold' mb='4px'>
-									68%
+									
 								</VuiTypography>
 								<VuiTypography color='text' variant='caption'>
-									Current Load
+									
 								</VuiTypography>
 							</VuiBox>
 						</VuiBox>
@@ -72,10 +72,9 @@ const CarInformations = () => {
 							flexDirection='column'
 							sx={{ textAlign: 'center' }}>
 							<VuiTypography color='white' variant='lg' fontWeight='bold' mb='2px' mt='18px'>
-								0h 58 min
-							</VuiTypography>
+								23 Jan 2004							</VuiTypography>
 							<VuiTypography color='text' variant='button' fontWeight='regular'>
-								Time to full charge
+								Date Joined 
 							</VuiTypography>
 						</VuiBox>
 					</VuiBox>
@@ -108,7 +107,7 @@ const CarInformations = () => {
 								}}>
 								<VuiBox display='flex' flexDirection='column' mr='auto'>
 									<VuiTypography color='text' variant='caption' fontWeight='medium' mb='2px'>
-										Battery Health
+										Task Progress
 									</VuiTypography>
 									<VuiTypography
 										color='white'
@@ -122,18 +121,7 @@ const CarInformations = () => {
 										76%
 									</VuiTypography>
 								</VuiBox>
-								<VuiBox
-									display='flex'
-									justifyContent='center'
-									alignItems='center'
-									sx={{
-										background: info.main,
-										borderRadius: '12px',
-										width: '56px',
-										height: '56px'
-									}}>
-									<VuiBox component='img' src={carProfile} />
-								</VuiBox>
+								
 							</VuiBox>
 						</Grid>
 						<Grid item xs={12} md={5.5} xl={5.8} xxl={5.5}>
@@ -181,7 +169,7 @@ const CarInformations = () => {
 								}}>
 								<VuiBox display='flex' flexDirection='column' mr='auto'>
 									<VuiTypography color='text' variant='caption' fontWeight='medium' mb='2px'>
-										Consumption
+										Collaborations
 									</VuiTypography>
 									<VuiTypography
 										color='white'
@@ -192,21 +180,10 @@ const CarInformations = () => {
 												fontSize: '20px'
 											}
 										})}>
-										163W/km
+										163
 									</VuiTypography>
 								</VuiBox>
-								<VuiBox
-									display='flex'
-									justifyContent='center'
-									alignItems='center'
-									sx={{
-										background: info.main,
-										borderRadius: '12px',
-										width: '56px',
-										height: '56px'
-									}}>
-									<VuiBox component='img' src={WhiteLightning} />
-								</VuiBox>
+							
 							</VuiBox>
 						</Grid>
 						<Grid item xs={12} md={5.5} xl={5.8} xxl={5.5}>
@@ -231,7 +208,7 @@ const CarInformations = () => {
 												fontSize: '20px'
 											}
 										})}>
-										1.342km
+										13 hrs
 									</VuiTypography>
 								</VuiBox>
 								<VuiBox sx={{ maxHeight: '75px' }}>

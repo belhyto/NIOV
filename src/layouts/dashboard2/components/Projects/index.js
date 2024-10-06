@@ -56,12 +56,12 @@ function Projects() {
       <VuiBox display="flex" justifyContent="space-between" alignItems="center" mb="32px">
         <VuiBox mb="auto">
           <VuiTypography color="white" variant="lg" mb="6px" gutterBottom>
-            Collaborator Contributions
+            Projects
           </VuiTypography>
           <VuiBox display="flex" alignItems="center" lineHeight={0}>
             <BsCheckCircleFill color="green" size="15px" />
             <VuiTypography variant="button" fontWeight="regular" color="text" ml="5px">
-              &nbsp;<strong>30 contributions</strong> logged this month
+              &nbsp;<strong>30 done</strong> this month
             </VuiTypography>
           </VuiBox>
         </VuiBox>
@@ -86,11 +86,10 @@ function Projects() {
           },
         }}
       >
-        <Table columns={columns} rows={rows} />  {/* Table showing contributors and their input */}
+        <Table columns={columns} rows={rows} />
       </VuiBox>
     </Card>
   );
 }
-
 
 export default Projects;

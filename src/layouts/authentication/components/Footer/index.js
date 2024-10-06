@@ -63,7 +63,7 @@ function Footer() {
           <VuiBox display="flex" justifyContent="center" flexWrap="wrap" mb={3}>
             <VuiBox mr={{ xs: "20px", lg: "46px" }}>
               <VuiTypography component="a" href="#" variant="body2" color="text">
-                Marketplace
+                
               </VuiTypography>
             </VuiBox>
             <VuiBox mr={{ xs: "20px", lg: "46px" }}>

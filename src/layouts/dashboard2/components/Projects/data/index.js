@@ -59,7 +59,7 @@ export default function data() {
           <VuiBox display="flex" alignItems="center">
             <AdobeXD size="20px" />
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-            Identified key DEGs related to DNA/RNA metabolism.
+              Chakra Vision UI Version
             </VuiTypography>
           </VuiBox>
         ),
@@ -75,7 +75,7 @@ export default function data() {
         ),
         Role: (
           <VuiTypography variant="button" color="white" fontWeight="bold">
-            Bioinformatics
+            $14,000
           </VuiTypography>
         ),
         completion: (
@@ -92,7 +92,7 @@ export default function data() {
           <VuiBox display="flex" alignItems="center">
             <Atlassian size="20px" />
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-            Performed statistical analysis to validate gene expression changes.
+              Add Progress Track
             </VuiTypography>
           </VuiBox>
         ),
@@ -106,7 +106,7 @@ export default function data() {
         ),
         Role: (
           <VuiTypography variant="button" color="white" fontWeight="bold">
-           Biostatistician
+            $3,000
           </VuiTypography>
         ),
         completion: (
@@ -123,7 +123,7 @@ export default function data() {
           <VuiBox display="flex" alignItems="center">
             <Slack size="20px" />
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-            Designed the primary experimental protocol. 
+              Fix Platform Errors
             </VuiTypography>
           </VuiBox>
         ),
@@ -137,7 +137,7 @@ export default function data() {
         ),
         Role: (
           <VuiTypography variant="button" color="white" fontWeight="bold">
-            Lead Scientist
+            Not set
           </VuiTypography>
         ),
         completion: (
@@ -154,7 +154,7 @@ export default function data() {
           <VuiBox display="flex" alignItems="center">
             <Spotify size="20px" />
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-            Analysis of metabolic pathways affected by spaceflight.
+              Launch our Mobile App
             </VuiTypography>
           </VuiBox>
         ),
@@ -170,7 +170,7 @@ export default function data() {
         ),
         Role: (
           <VuiTypography variant="button" color="white" fontWeight="bold">
-            Research Assistant
+            $20,500
           </VuiTypography>
         ),
         completion: (
@@ -187,7 +187,7 @@ export default function data() {
           <VuiBox display="flex" alignItems="center">
             <Jira size="20px" />
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-            Investigated space-induced genetic mutations and their impact on cellular processes.
+              Add the New Pricing Page
             </VuiTypography>
           </VuiBox>
         ),
@@ -195,10 +195,10 @@ export default function data() {
           <VuiBox display="flex" py={1}>
             {avatars([[avatar4, "Jessica Doe"]])}
           </VuiBox>
-        ),  
+        ),
         Role: (
           <VuiTypography variant="button" color="white" fontWeight="bold">
-            Geneticist
+            $500
           </VuiTypography>
         ),
         completion: (
@@ -215,7 +215,7 @@ export default function data() {
           <VuiBox display="flex" alignItems="center">
             <Invision size="20px" />
             <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-            Data collection for ground control experiments.
+              Redesign New Online Shop
             </VuiTypography>
           </VuiBox>
         ),
@@ -229,7 +229,7 @@ export default function data() {
         ),
         Role: (
           <VuiTypography variant="button" color="white" fontWeight="bold">
-            Lab Technician	
+            $2,000
           </VuiTypography>
         ),
         completion: (

@@ -45,7 +45,7 @@ const action = (
 export default {
   columns: [
     { name: "project", align: "left" },
-    { name: "budget", align: "left" },
+    { name: "Role", align: "left" },
     { name: "status", align: "left" },
     { name: "completion", align: "center" },
     { name: "action", align: "center" },
@@ -61,7 +61,7 @@ export default {
           </VuiTypography>
         </VuiBox>
       ),
-      budget: (
+      Role: (
         <VuiTypography variant="button" color="white" fontWeight="medium">
           $14,000
         </VuiTypography>
@@ -83,7 +83,7 @@ export default {
           </VuiTypography>
         </VuiBox>
       ),
-      budget: (
+      Role: (
         <VuiTypography variant="button" color="white" fontWeight="medium">
           $3,000
         </VuiTypography>
@@ -101,11 +101,11 @@ export default {
         <VuiBox display="flex" alignItems="center">
           <Slack size="20px" />
           <VuiTypography pl="16px" color="white" variant="button" fontWeight="medium">
-            Fix Platform Errors
+          Designed the primary experimental protocol. Analyzed the effects of microgravity on protein metabolism.
           </VuiTypography>
         </VuiBox>
-      ),
-      budget: (
+      ), 
+      Role: (
         <VuiTypography variant="button" color="white" fontWeight="medium">
           Not set
         </VuiTypography>
@@ -127,7 +127,7 @@ export default {
           </VuiTypography>
         </VuiBox>
       ),
-      budget: (
+      Role: (
         <VuiTypography variant="button" color="white" fontWeight="medium">
           $32,000
         </VuiTypography>
@@ -149,7 +149,7 @@ export default {
           </VuiTypography>
         </VuiBox>
       ),
-      budget: (
+      Role: (
         <VuiTypography variant="button" color="white" fontWeight="medium">
           $2,300
         </VuiTypography>

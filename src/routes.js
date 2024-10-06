@@ -19,14 +19,22 @@ import { IoHome } from "react-icons/io5";
 const routes = [
   {
     type: "collapse",
-    name: "Dashboard",
+    name: "OSD-379",
     key: "dashboard",
     route: "/dashboard",
     icon: <IoHome size="15px" color="inherit" />,
     component: Dashboard,
     noCollapse: true,
   },
- 
+  {
+    type: "collapse",
+    name: "OSD-665",
+    key: "dashboard2",
+    route: "/dashboard2",
+    icon: <IoHome size="15px" color="inherit" />,
+    component: Dashboard,
+    noCollapse: true,
+  },
 
 
   { type: "title", title: "Account Pages", key: "account-pages" },

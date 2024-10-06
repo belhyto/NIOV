@@ -25,7 +25,7 @@ function ReferralTracking() {
 					sx={{ width: '100%' }}
 					mb='40px'>
 					<VuiTypography variant='lg' color='white' mr='auto' fontWeight='bold'>
-					Treatment Groups
+						Referral Tracking
 					</VuiTypography>
 					<VuiBox
 						display='flex'

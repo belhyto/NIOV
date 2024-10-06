@@ -20,6 +20,7 @@ import linearGradient from "assets/theme/functions/linearGradient";
 // Vision UI Dashboard React base styles
 import typography from "assets/theme/base/typography";
 import colors from "assets/theme/base/colors";
+
 // Dashboard layout components
 import WelcomeMark from "layouts/dashboard/components/WelcomeMark";
 import Projects from "layouts/dashboard/components/Projects";
@@ -42,6 +43,7 @@ import { lineChartDataDashboard } from "layouts/dashboard/data/lineChartData";
 import { lineChartOptionsDashboard } from "layouts/dashboard/data/lineChartOptions";
 import { barChartDataDashboard } from "layouts/dashboard/data/barChartData";
 import { barChartOptionsDashboard } from "layouts/dashboard/data/barChartOptions";
+
 function Dashboard() {
   const { gradients } = colors;
   const { cardContent } = gradients;
@@ -93,13 +95,13 @@ function Dashboard() {
               <Card>
                 <VuiBox sx={{ height: "100%" }}>
                   <VuiTypography variant="lg" color="white" fontWeight="bold" mb="5px">
-                    Resources
+                    Contributions 
                   </VuiTypography>
                   <VuiBox display="flex" alignItems="center" mb="40px">
                     <VuiTypography variant="button" color="success" fontWeight="bold">
                       +5% more{" "}
                       <VuiTypography variant="button" color="text" fontWeight="regular">
-                        in 2024
+                        in 2021
                       </VuiTypography>
                     </VuiTypography>
                   </VuiBox>
@@ -133,7 +135,7 @@ function Dashboard() {
                     />
                   </VuiBox>
                   <VuiTypography variant="lg" color="white" fontWeight="bold" mb="5px">
-                  Pre-launch Events
+                    Active Users
                   </VuiTypography>
                   <VuiBox display="flex" alignItems="center" mb="40px">
                     <VuiTypography variant="button" color="success" fontWeight="bold">
@@ -160,7 +162,7 @@ function Dashboard() {
                           <IoWallet color="#fff" size="12px" />
                         </VuiBox>
                         <VuiTypography color="text" variant="button" fontWeight="medium">
-                          Scientists
+                          Users
                         </VuiTypography>
                       </Stack>
                       <VuiTypography color="white" variant="lg" fontWeight="bold" mb="8px">
@@ -184,7 +186,7 @@ function Dashboard() {
                           <IoIosRocket color="#fff" size="12px" />
                         </VuiBox>
                         <VuiTypography color="text" variant="button" fontWeight="medium">
-                          Entries
+                          Clicks
                         </VuiTypography>
                       </Stack>
                       <VuiTypography color="white" variant="lg" fontWeight="bold" mb="8px">
@@ -208,11 +210,11 @@ function Dashboard() {
                           <FaShoppingCart color="#fff" size="12px" />
                         </VuiBox>
                         <VuiTypography color="text" variant="button" fontWeight="medium">
-                          Data  
+                          Sales
                         </VuiTypography>
                       </Stack>
                       <VuiTypography color="white" variant="lg" fontWeight="bold" mb="8px">
-                        2,400
+                        2,400$
                       </VuiTypography>
                       <VuiProgress value={60} color="info" sx={{ background: "#2D2E5F" }} />
                     </Grid>
@@ -232,7 +234,7 @@ function Dashboard() {
                           <IoBuild color="#fff" size="12px" />
                         </VuiBox>
                         <VuiTypography color="text" variant="button" fontWeight="medium">
-                          Protocols
+                          Items
                         </VuiTypography>
                       </Stack>
                       <VuiTypography color="white" variant="lg" fontWeight="bold" mb="8px">
@@ -260,4 +262,4 @@ function Dashboard() {
   );
 }
 
-export default Dashboard;
+export default Dashboard2;

@@ -21,18 +21,9 @@ function Footer() {
           sx={{ textAlign: "center", fontWeight: "400 !important" }}
           color="white"
         >
-          @ 2021, Made by Roshni Sahoo....
-          <VuiTypography
-            component="a"
-            variant="button"
-            href="https://simmmple.com/"
-            sx={{ textAlign: "center", fontWeight: "500 !important" }}
-            color="white"
-            mr="2px"
-          >
-            Simmmple
-          </VuiTypography>
-          &
+          @ 2024, Made by Roshni Sahoo....
+          
+          
           <VuiTypography
             ml="2px"
             mr="2px"
@@ -44,7 +35,7 @@ function Footer() {
           >
             NIOV
           </VuiTypography>
-          for a better web
+          
         </VuiTypography>
       </VuiBox>
       <VuiBox item xs={10}>
@@ -56,7 +47,7 @@ function Footer() {
               variant="body2"
               color="white"
             >
-              Marketplace
+              
             </VuiTypography>
           </VuiBox>
           <VuiBox mr={{ xs: "20px", lg: "46px" }}>

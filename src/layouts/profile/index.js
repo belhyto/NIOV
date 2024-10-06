@@ -12,9 +12,9 @@ import team2 from "assets/images/avatar2.png";
 import team3 from "assets/images/avatar3.png";
 import team4 from "assets/images/avatar4.png";
 // Images
-import profile1 from "assets/images/profile-1.png";
-import profile2 from "assets/images/profile-2.png";
-import profile3 from "assets/images/profile-3.png";
+import profile1 from "assets/images/profile-1.jpeg";
+import profile2 from "assets/images/profile-2.jpeg";
+import profile3 from "assets/images/profile-3.jpeg";
 // Vision UI Dashboard React components
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
@@ -86,23 +86,23 @@ function Overview() {
               description="Hi, I’m Roshni Sahoo, Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality)."
               info={{
                 fullName: "Roshni Sahoo",
-                mobile: "(44) 123 1234 123",
-                email: "mark@simmmple.com",
-                location: "United States",
+                mobile: "91 37 64 9761",
+                email: "1712roshni@gmail.com",
+                location: "India",
               }}
               social={[
                 {
-                  link: "https://www.facebook.com/CreativeTim/",
+                  link: "https://www.facebook.com/",
                   icon: <FacebookIcon />,
                   color: "facebook",
                 },
                 {
-                  link: "https://twitter.com/creativetim",
+                  link: "https://twitter.com/",
                   icon: <TwitterIcon />,
                   color: "twitter",
                 },
                 {
-                  link: "https://www.instagram.com/creativetimofficial/",
+                  link: "https://www.instagram.com/",
                   icon: <InstagramIcon />,
                   color: "instagram",
                 },
@@ -123,7 +123,7 @@ function Overview() {
                   Projects
                 </VuiTypography>
                 <VuiTypography color="text" variant="button" fontWeight="regular">
-                  Architects design houses
+                  
                 </VuiTypography>
               </VuiBox>
               <Grid container spacing={3}>
@@ -131,9 +131,9 @@ function Overview() {
                   <DefaultProjectCard
                     image={profile1}
                     label="project #2"
-                    title="modern"
-                    description="As Uber works through a huge amount of internal management turmoil."
-                    action={{
+                    title="LunarTech Ensemble"
+                    description="This team developed an interactive website and immersive game designed to help users understand and visualize lunar seismic data collected by instruments from NASA's Apollo missions. The project allows users to explore moonquake locations, types, and dates, enhancing public engagement with lunar science."
+                    action={{ 
                       type: "internal",
                       route: "/pages/profile/profile-overview",
                       color: "white",
@@ -151,8 +151,8 @@ function Overview() {
                   <DefaultProjectCard
                     image={profile2}
                     label="project #1"
-                    title="scandinavian"
-                    description="Music is something that every person has his or her own specific opinion about."
+                    title="Storm Prophet"
+                    description=" Created a predictive data model that accurately forecasts geomagnetic storm levels. By utilizing advanced data analysis techniques and Long Short-Term Memory (LSTM) models, this project contributes to better understanding space weather impacts on Earth. "
                     action={{
                       type: "internal",
                       route: "/pages/profile/profile-overview",
@@ -171,8 +171,8 @@ function Overview() {
                   <DefaultProjectCard
                     image={profile3}
                     label="project #3"
-                    title="minimalist"
-                    description="Different people have different taste, and various types of music."
+                    title="Spacebee"
+                    description="Team focused on integrating moonquake data from Apollo missions into a comprehensive website. Their project features detailed visualizations of moonquake occurrences, helping users grasp the significance of these seismic events in lunar exploration."
                     action={{
                       type: "internal",
                       route: "/pages/profile/profile-overview",
